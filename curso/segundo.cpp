@@ -20,7 +20,7 @@ int main()
     booleano = true;
     cout << booleano << endl;
 
-    char letra = 'bola';
+    char letra = 'b'; // 'bola';
     cout << letra << endl;
 
     string palavra = "bola";
