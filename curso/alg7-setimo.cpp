@@ -12,10 +12,10 @@ int main()
     var1 = 5;
     pont1 = &var1;
     cout << "Valor da variavel, atraves do seu nome: " << var1 << endl;
-    cout << "Endereca armazenado no ponteiro: " << pont1 << endl;
+    cout << "Endereco armazenado no ponteiro: " << pont1 << endl;
     cout << "Valor da variavel, atraves do ponteiro: " << *pont1 << endl;
 
-    int var2;
+    // int var2;
     // var2 = var1;
     // var2 = *pont1;
     // cout << var2;
@@ -24,7 +24,7 @@ int main()
     //*pont1 = 30;
     // cout << var1;
 
-    var2 = 50;
+    // var2 = 50;
     // pont1 = &var2;
     // cout << *pont1 << endl;
     // cout << var1;
