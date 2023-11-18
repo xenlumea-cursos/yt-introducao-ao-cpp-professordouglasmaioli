@@ -2,7 +2,8 @@
 
 using namespace std;
 
-int main(){
+int main()
+{
     float renda;
     int idade;
     cout << "Qual e a sua idade?\n";
@@ -10,9 +11,12 @@ int main(){
     cout << "Qual e a sua renda?\n";
     cin >> renda;
 
-    if (idade >= 21 && renda < 1200){
+    if (idade >= 21 && renda < 1200)
+    {
         cout << "Voce esta apto a participar do programa!\n";
-    } else{
+    }
+    else
+    {
         cout << "Voce nao pode participar do programa!\n";
     }
 
